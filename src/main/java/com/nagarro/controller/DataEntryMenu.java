@@ -20,8 +20,7 @@ public class DataEntryMenu {
 								"\n3. For Update The Data" +
 								"\n4. For Search The Data" +
 								"\n5. For Exit To The Menu");
-			System.out.print("\nEnter your Choice :: ");
-			optionchoice = sc.nextInt();
+			optionchoice = UserInput.getValidOptionchoice();
 			switch(optionchoice){
 				case 1:
 					Student student = UserInput.getStudentInput();

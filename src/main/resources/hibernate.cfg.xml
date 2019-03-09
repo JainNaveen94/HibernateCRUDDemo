@@ -12,14 +12,14 @@
 			<property name="hibernate.connection.username">root</property>
 			<property name="hibernate.connection.password">1234</property>
 			
-		<!--  -->
+		<!-- Specify the Type Of Data Base Used In Hibernate to Generate The SQL Statement -->
 			<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
 		
-		<!-- Used to specify that Hibernate Mapping as Automatic-->
+		<!-- Used For Hibernate to Perform The DDL Commands On DataBase (Not avilable in JDBC) -->
 			<!-- 		<property name="hibernate.hbm2ddl.auto">create</property> -->
 			<property name="hibernate.hbm2ddl.auto">update</property>
 		
-		<!-- Display all executed SQL to stdout -->
+		<!-- Display all executed SQL Commands on Console -->
 			<property name="hibernate.show_sql">true</property>
 			<property name="hibernate.format_sql">true</property>
 	
